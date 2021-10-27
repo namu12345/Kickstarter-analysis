@@ -25,11 +25,11 @@ Further i managed to use the conditional formatting to to automatically apply a 
 
 ## Analysis of Outcomes based on Launch date :
 The analysis of outcomes based on launch date is better understood by creating Pivot table. The following steps i have to took to create the below Pivot Table 
-# Create a pivot table from the KickStarter worksheet, and place the pivot table in a new sheet.
-# Label the sheet "Theater Outcomes by Launch Date."
-# Filter the pivot table based on "Parent Category" and "Years."
-# Place the appropriate pivot table fields in the columns, rows, and values.
-# Filter the column labels to show only "successful," "failed," and "canceled."
+- Create a pivot table from the KickStarter worksheet, and place the pivot table in a new sheet.
+- Label the sheet "Theater Outcomes by Launch Date."
+- Filter the pivot table based on "Parent Category" and "Years."
+- Place the appropriate pivot table fields in the columns, rows, and values.
+- Filter the column labels to show only "successful," "failed," and "canceled."
 
 ![image](https://user-images.githubusercontent.com/92283185/139135236-8fd283a0-d473-4e67-bea7-7b0e4a6044b4.png)
 
