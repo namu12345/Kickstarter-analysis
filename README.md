@@ -56,8 +56,8 @@ While cretaing Outcome based on Goals it was little challenging for me to get th
 # What are two conclusions you can draw about the Outcomes based on Launch Date?
 ![image](https://user-images.githubusercontent.com/92283185/139140241-b0afafa0-5eaa-475c-8a1c-d53dd77de573.png)
 
-so this Pivot table about Outcome based on Launch date tells us that the most successful month were from May-July then it started falling down. 
-And the Theater category was more successful as compared to other categories.
+- This Pivot table about Outcome based on Launch date tells us that the most successful month were from May-July then it started falling down. 
+- And the Theater category was more successful as compared to other categories.
 
 # What can you conclude about the Outcomes based on Goals?
 If we filter for only the United States campaigns, we will find that there were 525 successful theater Kickstarters.
@@ -70,13 +70,10 @@ We have found that while there are only a total of 604 Kickstarter campaigns for
 - The following are the other possible Pivot charts we could create from this dataset :
 - ParentCategory Outcome pivot chart
 - ![image](https://user-images.githubusercontent.com/92283185/139148898-feb1b901-7b15-498e-a567-214c8a419dd9.png)
-
 - Subcategory Outcome Pivot Chart
 ![image](https://user-images.githubusercontent.com/92283185/139149268-5dc10e2b-81de-45e2-9969-4b883429e038.png)
-
 - Pivot Line chart Datewise
 <img width="250" alt="Pivot line chart date wise" src="https://user-images.githubusercontent.com/92283185/139141396-7a29f80f-52e2-47e7-8920-17525a0f7aac.png">
-
 - Boxplot 
 - ![image](https://user-images.githubusercontent.com/92283185/139148420-3715cfed-e575-4497-8ebf-2a7f0673df3c.png)
 
