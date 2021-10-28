@@ -24,23 +24,42 @@ In the above image the Deadline and Launched_at columns contain Unix timestamps 
 Further i managed to use the conditional formatting to to automatically apply a preselected color to the cell. So as you can see the outcome column has 4 categories - Successful/Failed/Cancelled/Live where i used conditional formatting color code category to provide Louise the visual presentation of the data in the worksheet with information at a glance.
 
 ## Analysis of Outcomes based on Launch date :
-The analysis of outcomes based on launch date is better understood by creating Pivot table. The following steps i have to took to create the below Pivot Table 
+The analysis of outcomes based on launch date is better understood by creating Pivot table. The following steps i took to create the below Pivot Table 
 - Create a pivot table from the KickStarter worksheet, and place the pivot table in a new sheet.
 - Label the sheet "Theater Outcomes by Launch Date."
 - Filter the pivot table based on "Parent Category" and "Years."
 - Place the appropriate pivot table fields in the columns, rows, and values.
 - Filter the column labels to show only "successful," "failed," and "canceled."
 
-![image](https://user-images.githubusercontent.com/92283185/139135236-8fd283a0-d473-4e67-bea7-7b0e4a6044b4.png)
+After all this steps the Pivot table for all categories looks like this :
+
+![image](https://user-images.githubusercontent.com/92283185/139285347-ee81175d-e44a-4ef2-a21f-02bdda274f0a.png)
+
+And if we filter just the Theater category then the Pivot Table will appear as below :
+
+![image](https://user-images.githubusercontent.com/92283185/139282977-9583666e-6ba9-472a-ae8d-e2269979f0d2.png)
 
 The above analysis using Pivot chart explains the theater category was more successful as compared to others and we can have more clear picture by creating a line chart from the pivot table to visualize the relationship between outcomes and launch month. The line chart looks like this :
-![image](https://user-images.githubusercontent.com/92283185/139135627-597bf102-381a-4db3-bc6e-b0a5e9822330.png)
+![image](https://user-images.githubusercontent.com/92283185/139283421-3781d63f-4250-479a-b441-2fe7091547fa.png)
+
+
 
 ### Analysis of Outcomes based on Goals :
+
+Further to analyze outcome based on Goals I need to use the COUNTIF function and for that i have to take the below steps as follows :
+
+- Created new worksheet and labelled as ""Outcomes Based on Goals." and then i have to create the following dollar-amount ranges so projects can be grouped based on their goal amount.
+
+![image](https://user-images.githubusercontent.com/92283185/139286762-5bb92cf8-102d-4d7b-8563-f9b680c117d6.png)
+
+Further i used COUNTIF / SUM / Percentage function to calculate # & % of Successful / Failed & cancelled projects and the result was the below table and line chart :
+
 
 ![image](https://user-images.githubusercontent.com/92283185/139137209-fcb178a3-88b1-4dfe-90a5-9d39bc2790d5.png)
 
 ![image](https://user-images.githubusercontent.com/92283185/139137318-9aa9a62e-b9ca-4bb9-837b-9888aae755e6.png)
+
+So in Outcome based on goal my analysis is the projects were successful in the goal range of 1000 to 4999 but they were almost 100% failed in the range of 45000 to 49999.
 
 ### Challenges and Difficulties Encountered
 
@@ -50,8 +69,7 @@ While cretaing Outcome based on Goals it was little challenging for me to get th
 - The most successful month were from May-July. 
 - And the Theater category was more successful as compared to other categories and in theater category the most successful was plays category.
 - There were 525 successful theater Kickstarters in USA.
-- And in Great Britain 
-
+- And in Great Britain # # kickstarter-analysis
 
 # What are two conclusions you can draw about the Outcomes based on Launch Date?
 ![image](https://user-images.githubusercontent.com/92283185/139140241-b0afafa0-5eaa-475c-8a1c-d53dd77de573.png)
@@ -60,8 +78,8 @@ While cretaing Outcome based on Goals it was little challenging for me to get th
 - And the Theater category was more successful as compared to other categories.
 
 # What can you conclude about the Outcomes based on Goals?
-If we filter for only the United States campaigns, we will find that there were 525 successful theater Kickstarters.
-We have found that while there are only a total of 604 Kickstarter campaigns for plays in Great Britain, the "theater" category is the most successful.
+- If we filter for only the United States campaigns, we will find that there were 525 successful theater Kickstarters.
+- We have found that while there are only a total of 604 Kickstarter campaigns for plays in Great Britain, the "theater" category is the most successful.
 
 # What are some limitations of this dataset?
 - This dataset doesn't mention anything about individual investors so we cannot figure out our preferred investors.
@@ -75,13 +93,11 @@ We have found that while there are only a total of 604 Kickstarter campaigns for
 - Pivot Line chart Datewise
 <img width="250" alt="Pivot line chart date wise" src="https://user-images.githubusercontent.com/92283185/139141396-7a29f80f-52e2-47e7-8920-17525a0f7aac.png">
 - Boxplot 
-- ![image](https://user-images.githubusercontent.com/92283185/139148420-3715cfed-e575-4497-8ebf-2a7f0673df3c.png)
 
 
+![image](https://user-images.githubusercontent.com/92283185/139288544-377b7841-0820-4d2a-ba00-3a12ea5d61a1.png)
 
+Descriptive Statistics by using mean median mode iqr functions
 
-
-
-
-
+![image](https://user-images.githubusercontent.com/92283185/139288833-3bb3975b-0b52-44ba-b430-0b0571f3a9bc.png)
 
